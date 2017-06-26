@@ -1,12 +1,26 @@
 package model;
 
+import javax.persistence.*;
+
 /**
  * Created by mario on 25.06.2017.
  */
+@Entity
+@Table(name="phone")
 public class Phone {
+    @Id
+//    @Column(name = "id_phone")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private int id;
-    private String name;
-    private String surname;
+    private String nunber;
+    private String extensionNumber;
+    private String diallingCode;
+
+//    @ManyToOne(cascade = {CascadeType.MERGE})
+//    @JoinColumn(name = "person_id")//, referencedColumnName="id")
+//    private Person person;
+
 
     public int getId() {
         return id;
@@ -16,29 +30,45 @@ public class Phone {
         this.id = id;
     }
 
-
-    public String getName() {
-        return name;
+    public String getNunber() {
+        return nunber;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNunber(String nunber) {
+        this.nunber = nunber;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getExtensionNumber() {
+        return extensionNumber;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setExtensionNumber(String extensionNumber) {
+        this.extensionNumber = extensionNumber;
     }
+
+    public String getDiallingCode() {
+        return diallingCode;
+    }
+
+    public void setDiallingCode(String diallingCode) {
+        this.diallingCode = diallingCode;
+    }
+
+//    public Person getPerson() {
+//        return person;
+//    }
+//
+//    public void setPerson(Person person) {
+//        this.person = person;
+//    }
 
     @Override
     public String toString() {
-        return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+        return "phone{" +
+                "id='" + id +'\'' +
+                "nunber='" + nunber + '\'' +
+                ", extensionNumber='" + extensionNumber + '\'' +
+                ", diallingCode='" + diallingCode + '\'' +
                 '}';
     }
 }

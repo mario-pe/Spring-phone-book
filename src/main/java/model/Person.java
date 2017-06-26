@@ -1,16 +1,16 @@
 package model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  * Created by mario on 25.06.2017.
  */
 @Entity
-@Table(name="person")
 public class Person {
-
     @Id
-    @Column(name="id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;

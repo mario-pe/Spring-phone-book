@@ -53,7 +53,7 @@ public class PersonController {
     @RequestMapping("/print")
     public String index(Person person) {
         System.out.println(person);
-//        this.personService.addPerson(person);
+        this.personService.addPerson(person);
         return "index";
     }
 }

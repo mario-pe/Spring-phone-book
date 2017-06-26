@@ -45,6 +45,12 @@
         </dependency>
 
         <!--hibernate-->
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate -->
+        <!--<dependency>-->
+            <!--<groupId>org.hibernate</groupId>-->
+            <!--<artifactId>hibernate</artifactId>-->
+            <!--<version>3.2.3.ga</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -120,6 +126,13 @@
             </exclusions>
             <scope>runtime</scope>
         </dependency>
+
+        <!--&lt;!&ndash;MySQL driver&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<version>6.0.6</version>-->
+        <!--</dependency>-->
 
         <!-- @Inject -->
         <dependency>
