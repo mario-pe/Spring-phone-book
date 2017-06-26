@@ -1,6 +1,8 @@
 package dao;
 
-import model.Phone;
+
+
+import model.Person;
 
 import java.util.List;
 
@@ -8,9 +10,9 @@ import java.util.List;
  * Created by mario on 25.06.2017.
  */
 public interface PersonDao {
-    public void addPhone(Phone p);
-    public void updatePhone(Phone p);
-    public List<Phone> listPhone(Phone p);
-    public Phone getPhoneById(int id);
-    public void removePhone(int id);
+    public void addPerson(Person p);
+    public void updatePerson(Person p);
+    public List<Person> listPerson(Person p);
+    public Person getPersonById(int id);
+    public void removePerson(int id);
 }

@@ -15,13 +15,13 @@ public class PersonServiceImpl implements PersonService {
 
 
     private PersonDao personDao;
-    public void setPersonDao(PersonDao personDAO) {
-        this.personDao = personDAO;
+    public void setPersonDao(PersonDao personDao) {
+        this.personDao = personDao;
     }
 
     @Override
     public void addPerson(Person p) {
-
+        this.personDao.addPerson(p);
     }
 
     @Override

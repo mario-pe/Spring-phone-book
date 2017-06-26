@@ -1,9 +1,17 @@
 package model;
 
+import javax.persistence.*;
+
 /**
  * Created by mario on 25.06.2017.
  */
+@Entity
+@Table(name="person")
 public class Person {
+
+    @Id
+    @Column(name="id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String name;
     private String surname;

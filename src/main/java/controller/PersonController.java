@@ -1,6 +1,7 @@
 package controller;
 
 import model.Person;
+import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -47,6 +48,12 @@ public class PersonController {
         person.setName("henio");
 
         model.addAttribute("person", person);
+        return "index";
+    }
+    @RequestMapping("/print")
+    public String index(Person person) {
+        System.out.println(person);
+//        this.personService.addPerson(person);
         return "index";
     }
 }

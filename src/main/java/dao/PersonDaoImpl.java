@@ -1,6 +1,7 @@
 package dao;
 
-import model.Phone;
+import model.Person;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +15,7 @@ import java.util.List;
 @Repository
 public class PersonDaoImpl implements PersonDao {
 
-//    private static final Logger logger = LoggerFactory.getLogger(PersonDaoImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(PersonDaoImpl.class);
 
     private SessionFactory sessionFactory;
 
@@ -23,27 +24,29 @@ public class PersonDaoImpl implements PersonDao {
     }
 
     @Override
-    public void addPhone(Phone p) {
+    public void addPerson(Person p) {
+        Session session = this.sessionFactory.getCurrentSession();
+        session.persist(p);
+        logger.info("Person saved successfully, Person Details="+p);
+    }
+
+    @Override
+    public void updatePerson(Person p) {
 
     }
 
     @Override
-    public void updatePhone(Phone p) {
-
-    }
-
-    @Override
-    public List<Phone> listPhone(Phone p) {
+    public List<Person> listPerson(Person p) {
         return null;
     }
 
     @Override
-    public Phone getPhoneById(int id) {
+    public Person getPersonById(int id) {
         return null;
     }
 
     @Override
-    public void removePhone(int id) {
+    public void removePerson(int id) {
 
     }
 }

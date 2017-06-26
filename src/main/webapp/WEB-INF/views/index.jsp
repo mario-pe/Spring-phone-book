@@ -15,7 +15,11 @@
 </head>
 <body>
 <h1>
-    Add a Person
+    <form:form commandName="person" action="print" method="post">
+        <form:input path="name"/><br/>
+        <form:input path="surname"/><br/>
+        <form:button>zapisz</form:button>
+    </form:form>
 </h1>
 
 <%--<c:url var="addAction" value="/person/add" ></c:url>--%>
