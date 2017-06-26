@@ -20,6 +20,13 @@
         <form:input path="surname"/><br/>
         <form:button>zapisz</form:button>
     </form:form>
+
+    <%--<form:form commandName="phone" action="print" method="post">--%>
+        <%--<form:input path="nunber"/><br/>--%>
+        <%--<form:input path="extensionNumber"/><br/>--%>
+        <%--<form:input path="diallingCode"/><br/>--%>
+        <%--<form:button>zapisz</form:button>--%>
+    <%--</form:form>--%>
 </h1>
 
 <%--<c:url var="addAction" value="/person/add" ></c:url>--%>

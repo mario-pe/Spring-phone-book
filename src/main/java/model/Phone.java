@@ -8,10 +8,9 @@ import javax.persistence.*;
 @Entity
 @Table(name="phone")
 public class Phone {
-    @Id
-//    @Column(name = "id_phone")
-    @GeneratedValue(strategy = GenerationType.AUTO)
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String nunber;
     private String extensionNumber;

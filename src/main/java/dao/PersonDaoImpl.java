@@ -31,22 +31,34 @@ public class PersonDaoImpl implements PersonDao {
     }
 
     @Override
-    public void updatePerson(Person p) {
-
+    public void updatePerson(Person person) {
+        Session session = this.sessionFactory.getCurrentSession();
+        session.update(person);
+        logger.info("Person updated successfully, Person Details="+person);
     }
 
     @Override
-    public List<Person> listPerson(Person p) {
-        return null;
+    public List<Person> listPerson() {
+        Session session = this.sessionFactory.getCurrentSession();
+        List personsList = session.createQuery("from Person").list();
+        logger.info("PersonList loaded successfully");
+        return personsList;
     }
 
     @Override
     public Person getPersonById(int id) {
-        return null;
+        Session session = this.sessionFactory.getCurrentSession();
+        Person person =(Person) session.load(Person.class, new Integer(id));
+        logger.info("Person delete successfully, Person Details="+ person);
+        return person;
     }
 
     @Override
     public void removePerson(int id) {
-
+        Session session = this.sessionFactory.getCurrentSession();
+        Person person =(Person) session.load(Person.class, new Integer(id));
+        if(person != null)
+            session.delete(person);
+            logger.info("Person deleted successfully, person details="+person);
     }
 }
