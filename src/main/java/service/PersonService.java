@@ -1,6 +1,7 @@
 package service;
 
 import model.Person;
+import model.Phone;
 
 import java.util.List;
 
@@ -13,5 +14,6 @@ public interface PersonService {
     public List<Person> listPersons();
     public Person getPersonById(int id);
     public void removePerson(int id);
+    public List<Phone> getPhoneListById(int id);
 
 }

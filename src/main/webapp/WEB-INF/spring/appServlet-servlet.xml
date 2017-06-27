@@ -23,7 +23,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-
+    <!--datasorce-->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
                 destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
@@ -40,6 +40,7 @@
         <property name="annotatedClasses">
             <list>
                 <value>model.Person</value>
+                <value>model.Phone</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -50,14 +51,22 @@
         </property>
     </bean>
 
+    <!--person-->
     <bean id="personDao" class="dao.PersonDaoImpl">
         <property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory"/>
     </bean>
 
     <bean id="personService" class="service.PersonServiceImpl">
-        <property name="personDao" ref="personDao"></property>
+        <property name="personDao" ref="personDao"/>
     </bean>
 
+    <!--phone-->
+    <bean id="phoneDao" class="dao.PhoneDaoImpl">
+        <property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory"/>
+    </bean>
+    <bean id="phoneService" class="service.PhoneServiceImpl">
+        <property name="phoneDao" ref="phoneDao"/>
+    </bean>
 
 
     <tx:annotation-driven transaction-manager="transactionManager"/>

@@ -1,5 +1,6 @@
 package service;
 
+import dao.PhoneDao;
 import model.Phone;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,33 +12,40 @@ import java.util.List;
  */
 @Service
 public class PhoneServiceImpl implements PhoneService {
-    @Override
-    @Transactional
-    public void addPhone(Phone p) {
 
+    private PhoneDao phoneDao;
+    public void setPhoneDao(PhoneDao pd){
+        this.phoneDao=pd;
     }
 
     @Override
     @Transactional
-    public void updatePhone(Phone p) {
-
+    public void addPhone(Phone phone){
+        this.phoneDao.addPhone(phone);
     }
 
     @Override
     @Transactional
-    public List<Phone> listPhone(Phone p) {
-        return null;
+    public void updatePhone(Phone phone) {
+        this.phoneDao.updatePhone(phone);
+    }
+
+    @Override
+    @Transactional
+    public List<Phone> listPhone() {
+        return this.phoneDao.listPhone();
     }
 
     @Override
     @Transactional
     public Phone getPhoneById(int id) {
-        return null;
+
+        return this.phoneDao.getPhoneById(id);
     }
 
     @Override
     @Transactional
     public void removePhone(int id) {
-
+        this.phoneDao.removePhone(id);
     }
 }

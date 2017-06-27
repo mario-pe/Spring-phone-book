@@ -6,13 +6,13 @@ import javax.persistence.*;
  * Created by mario on 25.06.2017.
  */
 @Entity
-@Table(name="phone")
+//@Table(name="phone")
 public class Phone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String nunber;
+    private String number;
     private String extensionNumber;
     private String diallingCode;
 
@@ -29,12 +29,12 @@ public class Phone {
         this.id = id;
     }
 
-    public String getNunber() {
-        return nunber;
+    public String getNumber() {
+        return number;
     }
 
-    public void setNunber(String nunber) {
-        this.nunber = nunber;
+    public void setNumber(String nunber) {
+        this.number = nunber;
     }
 
     public String getExtensionNumber() {
@@ -65,7 +65,7 @@ public class Phone {
     public String toString() {
         return "phone{" +
                 "id='" + id +'\'' +
-                "nunber='" + nunber + '\'' +
+                "number='" + number + '\'' +
                 ", extensionNumber='" + extensionNumber + '\'' +
                 ", diallingCode='" + diallingCode + '\'' +
                 '}';

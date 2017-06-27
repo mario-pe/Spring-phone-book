@@ -1,6 +1,7 @@
 package dao;
 
 import model.Person;
+import model.Phone;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
@@ -60,5 +61,13 @@ public class PersonDaoImpl implements PersonDao {
         if(person != null)
             session.delete(person);
             logger.info("Person deleted successfully, person details="+person);
+    }
+
+    @Override
+    public List<Phone> getPhoneListById(int id) {
+
+        Session session = this.sessionFactory.getCurrentSession();
+        List phoneList = session.createQuery("from Phone where person_id = :id").setParameter("id",id).list();
+        return phoneList;
     }
 }

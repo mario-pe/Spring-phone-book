@@ -2,6 +2,7 @@ package service;
 
 import dao.PersonDao;
 import model.Person;
+import model.Phone;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -48,5 +49,11 @@ public class PersonServiceImpl implements PersonService {
     @Transactional
     public void removePerson(int id) {
         this.personDao.removePerson(id);
+    }
+
+    @Override
+    @Transactional
+    public List<Phone> getPhoneListById(int id) {
+        return this.personDao.getPhoneListById(id);
     }
 }

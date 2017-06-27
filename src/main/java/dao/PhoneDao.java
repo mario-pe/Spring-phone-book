@@ -10,7 +10,7 @@ import java.util.List;
 public interface PhoneDao {
     public void addPhone(Phone p);
     public void updatePhone(Phone p);
-    public List<Phone> listPhone(Phone p);
+    public List<Phone> listPhone();
     public Phone getPhoneById(int id);
     public void removePhone(int id);
 }

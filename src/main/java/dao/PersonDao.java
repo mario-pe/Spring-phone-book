@@ -3,6 +3,7 @@ package dao;
 
 
 import model.Person;
+import model.Phone;
 
 import java.util.List;
 
@@ -15,4 +16,5 @@ public interface PersonDao {
     public List<Person> listPerson();
     public Person getPersonById(int id);
     public void removePerson(int id);
+    public List<Phone> getPhoneListById(int id);
 }
