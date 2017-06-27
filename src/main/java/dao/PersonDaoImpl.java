@@ -66,7 +66,7 @@ public class PersonDaoImpl implements PersonDao {
     @Override
     public List<Phone> getPhoneListById(int id) {
 
-        Session session = this.sessionFactory.getCurrentSession();
+        Session session = this.sessionFactory.openSession();
         List phoneList = session.createQuery("from Phone where person_id = :id").setParameter("id", id).list();
         return phoneList;
     }

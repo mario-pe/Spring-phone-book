@@ -44,6 +44,13 @@
             <version>${springframework-version}</version>
         </dependency>
 
+        <!--H2-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.195</version>
+        </dependency>
+
         <!--hibernate-->
         <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate -->
         <!--<dependency>-->
@@ -67,6 +74,7 @@
             <artifactId>javassist</artifactId>
             <version>3.18.2-GA</version>
         </dependency>
+
 
 
 
@@ -127,12 +135,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!--&lt;!&ndash;MySQL driver&ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>mysql</groupId>-->
-            <!--<artifactId>mysql-connector-java</artifactId>-->
-            <!--<version>6.0.6</version>-->
-        <!--</dependency>-->
 
         <!-- @Inject -->
         <dependency>
