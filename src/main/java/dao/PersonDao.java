@@ -17,4 +17,7 @@ public interface PersonDao {
     public Person getPersonById(int id);
     public void removePerson(int id);
     public List<Phone> getPhoneListById(int id);
+    public List<Person> getPersonListBySurname(String surname);
+    public List<Person> getPersonListByNumber(String number);
+    public List<Person> getPersonListByNumberSurname(String number, String surname);
 }

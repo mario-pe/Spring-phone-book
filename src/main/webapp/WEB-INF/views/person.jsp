@@ -17,61 +17,6 @@
 <h1>
     operajce na ludziach
 </h1>
-
-
-
-<%--<c:url var="addAction" value="/person/add" ></c:url>--%>
-
-<%--<form:form commandName="person" action="${addAction}" >--%>
-    <%--<table>--%>
-        <%--<c:if test="${!empty person.name}">--%>
-            <%--<tr>--%>
-                <%--<td>--%>
-                    <%--<form:label path="id">--%>
-                        <%--<spring:message text="ID"/>--%>
-                    <%--</form:label>--%>
-                <%--</td>--%>
-                    <%--&lt;%&ndash;<td>&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;<form:input path="id" readonly="true" size="8"  disabled="true" />&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;<form:hidden path="id" />&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;</td> &ndash;%&gt;--%>
-            <%--</tr>--%>
-        <%--</c:if>--%>
-        <%--<tr>--%>
-            <%--<td>--%>
-                <%--<form:label path="name">--%>
-                    <%--<spring:message text="Name"/>--%>
-                <%--</form:label>--%>
-            <%--</td>--%>
-            <%--<td>--%>
-                <%--<form:input path="name" />--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td>--%>
-                <%--<form:label path="country">--%>
-                    <%--<spring:message text="Country"/>--%>
-                <%--</form:label>--%>
-            <%--</td>--%>
-            <%--<td>--%>
-                <%--<form:input path="country" />--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-        <%--<tr>--%>
-            <%--<td colspan="2">--%>
-                <%--<c:if test="${!empty person.name}">--%>
-                    <%--<input type="submit"--%>
-                           <%--value="<spring:message text="Edit Person"/>" />--%>
-                <%--</c:if>--%>
-                <%--<c:if test="${empty person.name}">--%>
-                    <%--<input type="submit"--%>
-                           <%--value="<spring:message text="Add Person"/>" />--%>
-                <%--</c:if>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-    <%--</table>--%>
-<%--</form:form>--%>
-<%--<br>--%>
 <h3>lista uzytkownikow</h3>
 <c:if test="${!empty personList}">
     <table class="tg">

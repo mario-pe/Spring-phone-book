@@ -1,15 +1,11 @@
 package controller;
 
 import model.Person;
-import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import service.PersonService;
 
 import java.util.List;
@@ -23,9 +19,9 @@ public class PersonController {
 
     private PersonService personService;
 
-    @Autowired(required=true)
-    @Qualifier(value="personService")
-    public void setPersonService(PersonService ps){
+    @Autowired(required = true)
+    @Qualifier(value = "personService")
+    public void setPersonService(PersonService ps) {
         this.personService = ps;
     }
 
@@ -43,9 +39,9 @@ public class PersonController {
 //        return "redirect:/persons";
     //    }
     @RequestMapping("/person")
-    public String personView(Model model){
+    public String personView(Model model) {
         List<Person> personList = this.personService.listPersons();
-        model.addAttribute("personList",personList);
+        model.addAttribute("personList", personList);
         return "person";
     }
 
@@ -87,14 +83,33 @@ public class PersonController {
     }
 
     @RequestMapping(value = "/person/details/{id}", method = RequestMethod.GET)
-    public String detailsPerson(@PathVariable("id")int id, Model model){
-        model.addAttribute("person",this.personService.getPersonById(id));
-        model.addAttribute("phoneList",this.personService.getPhoneListById(id));
+    public String detailsPerson(@PathVariable("id") int id, Model model) {
+        model.addAttribute("person", this.personService.getPersonById(id));
+        model.addAttribute("phoneList", this.personService.getPhoneListById(id));
         return "person/details";
     }
 
+    //    /{surname},{number}
+    @RequestMapping(value = "/searchPerson", method = RequestMethod.POST)
+    public String searchPerson(@RequestParam("surname") String surname, @RequestParam("number") String number, Model model) {
+        System.out.println("nazwisko: " + surname);
+        System.out.println("number: " + number);
+
+        if (!number.equals("") && !surname.equals("")) {
+            model.addAttribute("personList", this.personService.getPersonListByNumberSurname(number,surname));
+        } else if (number.equals("") && !surname.equals("")) {
+            model.addAttribute("personList", this.personService.getPersonListBySurname(surname));
+        } else if (!number.equals("")&& surname.equals("")) {
+            model.addAttribute("personList", this.personService.getPersonListByNumber(number));
+        }else {
+            model.addAttribute("info","niepodales parametrów wyszukiwania ");
+            return "index";
+        }
+        return "person/result";
+    }
+
     @RequestMapping("/")
-    public String index(){
+    public String index(Model model) {
         return "index";
     }
 }

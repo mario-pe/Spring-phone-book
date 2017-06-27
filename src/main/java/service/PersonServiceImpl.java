@@ -56,4 +56,22 @@ public class PersonServiceImpl implements PersonService {
     public List<Phone> getPhoneListById(int id) {
         return this.personDao.getPhoneListById(id);
     }
+
+    @Override
+    @Transactional
+    public List<Person> getPersonListBySurname(String surname) {
+        return this.personDao.getPersonListBySurname(surname);
+    }
+
+    @Override
+    @Transactional
+    public List<Person> getPersonListByNumber(String number) {
+        return this.personDao.getPersonListByNumber(number);
+    }
+
+    @Override
+    @Transactional
+    public List<Person> getPersonListByNumberSurname(String number, String surname) {
+        return this.personDao.getPersonListByNumberSurname(number,surname);
+    }
 }

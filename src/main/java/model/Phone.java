@@ -16,14 +16,14 @@ public class Phone {
     private String extensionNumber;
     private String diallingCode;
 
-//    @ManyToOne(cascade = {CascadeType.MERGE})
-//    @JoinColumn(name = "person_id")//, referencedColumnName="id")
-//    private Person person;
-
+    @ManyToOne(cascade = {CascadeType.MERGE})
+    @JoinColumn(name = "person_id")//, referencedColumnName="id")
+    private Person person;
 
     public int getId() {
         return id;
     }
+
 
     public void setId(int id) {
         this.id = id;
@@ -53,13 +53,13 @@ public class Phone {
         this.diallingCode = diallingCode;
     }
 
-//    public Person getPerson() {
-//        return person;
-//    }
-//
-//    public void setPerson(Person person) {
-//        this.person = person;
-//    }
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
 
     @Override
     public String toString() {
