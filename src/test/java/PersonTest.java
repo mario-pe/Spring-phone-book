@@ -17,25 +17,25 @@ import java.util.List;
 /**
  * Created by mario on 28.06.2017.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration({"classpath:**/appServlet-servlet-test.xml","classpath:**/root-context.xml"})
-//@ContextConfiguration("classpath:appServlet-servlet-test.xml")
-@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml")
-@WebAppConfiguration
-@Rollback(true)
+//@RunWith(SpringJUnit4ClassRunner.class)
+////@ContextConfiguration({"classpath:**/appServlet-servlet-test.xml","classpath:**/root-context.xml"})
+////@ContextConfiguration("classpath:appServlet-servlet-test.xml")
+//@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml")
+//@WebAppConfiguration
+//@Rollback(true)
 public class PersonTest {
-
-        @Autowired
-    private PersonDao personDao;
-
-    @Test
-    @Transactional
-    public void testFindById() {
-
-        Person person = new Person("testN", "testS");
-        personDao.addPerson(person);
-
-        List<Person> persons = personDao.listPerson();
-        Assert.assertEquals(person.getName(), persons.get(0).getName());
-    }
+//
+//        @Autowired
+//    private PersonDao personDao;
+//
+//    @Test
+//    @Transactional
+//    public void testFindById() {
+//
+//        Person person = new Person("testN", "testS");
+//        personDao.addPerson(person);
+//
+//        List<Person> persons = personDao.listPerson();
+//        Assert.assertEquals(person.getName(), persons.get(0).getName());
+//    }
 }

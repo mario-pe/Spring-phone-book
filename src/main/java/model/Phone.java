@@ -1,5 +1,7 @@
 package model;
 
+
+
 import javax.persistence.*;
 
 /**
@@ -12,6 +14,7 @@ public class Phone {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
     private String number;
     private String extensionNumber;
     private String diallingCode;
