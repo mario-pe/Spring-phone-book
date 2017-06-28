@@ -18,5 +18,7 @@ public interface PersonService {
     public List<Person> getPersonListBySurname(String surname);
     public List<Person> getPersonListByNumber(String number);
     public List<Person> getPersonListByNumberSurname(String number, String surname);
+    public void deleteNumberFromPerson(int idPhone);
+    public void addPhoneToPerson(int idPhone, int idPerson);
 
 }

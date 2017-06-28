@@ -17,6 +17,7 @@ public class PersonServiceImpl implements PersonService {
 
 
     private PersonDao personDao;
+
     public void setPersonDao(PersonDao personDao) {
         this.personDao = personDao;
     }
@@ -73,5 +74,16 @@ public class PersonServiceImpl implements PersonService {
     @Transactional
     public List<Person> getPersonListByNumberSurname(String number, String surname) {
         return this.personDao.getPersonListByNumberSurname(number,surname);
+    }
+
+    @Override
+    @Transactional
+    public void deleteNumberFromPerson(int idPhone){
+        this.personDao.deleteNumberFromPerson(idPhone);
+    }
+    @Override
+    @Transactional
+    public void addPhoneToPerson(int idPhone, int idPerson){
+        this.personDao.addPhoneToPerson(idPhone, idPerson);
     }
 }

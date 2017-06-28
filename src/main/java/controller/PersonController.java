@@ -107,6 +107,20 @@ public class PersonController {
         }
         return "person/result";
     }
+    @RequestMapping(value = "/removePhoneFromPerson/{id}/{id}")
+    public String removePhoneFromPerson(@PathVariable("id") int id, @PathVariable("id") int personId, Model model){
+        this.personService.deleteNumberFromPerson(id);
+        String path = "/person/details/"+personId;
+        return path;
+    }
+    @RequestMapping(value = "/addPhoneToPerson")
+    public String addPhoneToPerson(@RequestParam("idPhone") int idPhone, @RequestParam("idPerson") int idPerson, Model model){
+        int idPh  = idPhone;
+        int idPe  = idPerson;
+        this.personService.addPhoneToPerson(idPhone,idPerson);
+        String path = "/person/details/"+ idPerson;
+        return path;
+    }
 
     @RequestMapping("/")
     public String index(Model model) {

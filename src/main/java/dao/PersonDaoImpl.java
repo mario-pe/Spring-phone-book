@@ -94,4 +94,15 @@ public class PersonDaoImpl implements PersonDao {
                                                         setParameter("number",number).setParameter("surname",surname).list();
         return personList;
     }
+
+    @Override
+    public void deleteNumberFromPerson(int idPhone) {
+        Session session = this.sessionFactory.getCurrentSession();
+        session.createQuery("update Phone set person_id = null where id = :idPhone").setParameter("idPhone",idPhone).executeUpdate();    }
+
+    @Override
+    public void addPhoneToPerson(int idPhone, int idPerson) {
+        Session session = this.sessionFactory.getCurrentSession();
+        session.createQuery("update Phone set person_id = :idPerson where id = :idPhone").setParameter("idPerson",idPerson).setParameter("idPhone",idPhone).executeUpdate();
+    }
 }
