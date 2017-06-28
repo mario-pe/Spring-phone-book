@@ -24,32 +24,32 @@
     </bean>
 
     <!--datasorce-->
-    <!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"-->
-          <!--destroy-method="close">-->
-        <!--<property name="driverClassName" value="org.h2.Driver"/>-->
-        <!--<property name="url" value="jdbc:h2:~/test"/>-->
-        <!--<property name="username" value="sa"/>-->
-        <!--<property name="password" value=""/>-->
-    <!--</bean>-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="org.h2.Driver"/>
+        <property name="url" value="jdbc:h2:~/test"/>
+        <property name="username" value="sa"/>
+        <property name="password" value=""/>
+    </bean>
 
 
     <!-- Hibernate 3 SessionFactory Bean definition -->
     <bean id="hibernate3AnnotatedSessionFactory"
           class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
-        <property name="configLocation" value="classpath:hibernate.cfg.xml" />
-        <!--<property name="dataSource" ref="dataSource"/>-->
-        <!--<property name="annotatedClasses">-->
-            <!--<list>-->
-                <!--<value>model.Person</value>-->
-                <!--<value>model.Phone</value>-->
-            <!--</list>-->
-        <!--</property>-->
-        <!--<property name="hibernateProperties">-->
-            <!--<props>-->
-                <!--<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>-->
-                <!--<prop key="hibernate.show_sql">true</prop>-->
-            <!--</props>-->
-        <!--</property>-->
+        <!--<property name="configLocation" value="classpath:hibernate.cfg.xml" />-->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="annotatedClasses">
+            <list>
+                <value>model.Person</value>
+                <value>model.Phone</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+            </props>
+        </property>
     </bean>
 
     <!--person-->
