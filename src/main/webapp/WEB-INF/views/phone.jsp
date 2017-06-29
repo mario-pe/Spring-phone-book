@@ -33,7 +33,7 @@
                 <td>${phone.extensionNumber}</td>
                 <td>${phone.diallingCode}</td>
                 <td><a href="<c:url value='/phone/edit/${phone.id}' />" >Edit</a></td>
-                <td><a href="<c:url value='/phone/details/${phone.id}' />" >Szczegoly</a></td>
+                <%--<td><a href="<c:url value='/phone/details/${phone.id}' />" >Szczegoly</a></td>--%>
                 <td><a href="<c:url value='/phone/remove/${phone.id}' />" >Delete</a></td>
             </tr>
         </c:forEach>

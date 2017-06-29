@@ -13,13 +13,13 @@
 </head>
 <body>
 <form:form modelAttribute="phone" action="phoneEdit" method="post">
-   <label>numer</label>
+    <label>numer</label>
     <form:hidden path="id" />
-    <form:input path="number"/>
+    <form:input path="number"/><form:errors path="number"/><br/>
     <label>numer wewnetrzny</label>
-    <form:input path="extensionNumber"/>
+    <form:input path="extensionNumber"/><form:errors path="extensionNumber"/><br/>
     <label>numer kierunkowy</label>
-    <form:input path="diallingCode"/>
+    <form:input path="diallingCode"/><form:errors path="diallingCode"/><br/>
     <form:button>zapisz</form:button>
 </form:form>
 

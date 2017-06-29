@@ -3,6 +3,8 @@ package model;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 /**
  * Created by mario on 25.06.2017.
@@ -14,9 +16,12 @@ public class Phone {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-
+    @Pattern(regexp ="[0-9 -]", message = "{Pattern.Phone.number.validation}")
     private String number;
+    @Size(min=2,max=5,message = "{Size.Phone.extensionNumber.validation}")
+    @Pattern(regexp ="[0-9 -]", message = "{Pattern.Phone.extensionNumber.validation}")
     private String extensionNumber;
+    @Pattern(regexp ="[0-9 -]", message = "{Pattern.Phone.diallingCode.validation}")
     private String diallingCode;
 
     @ManyToOne(cascade = {CascadeType.MERGE})

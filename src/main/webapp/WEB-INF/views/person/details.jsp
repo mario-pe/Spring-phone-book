@@ -42,6 +42,7 @@
         <label>podaj index telefonu ktroy chcesz podlaczyc</label>
         <input type="text" name="idPhone">
         <input type="hidden" name="idPerson" value="${person.id}">
+        <label>jesli numer ma własciela zostanie on na stałe przypisany do nowego uzytkownika</label>
         <button type="submit">dodaj</button>
     </form>
 </table>
