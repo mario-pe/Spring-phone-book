@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
+ * model class for Person
+ * constructors
+ * getters and setters
+ * adnnotations: Persistence
  * Created by mario on 25.06.2017.
  */
 @Entity

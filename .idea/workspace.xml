@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35619e53-6d15-4588-bfde-b15a237ad0c7" name="Default" comment="next step">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zadanie1/src/main/resources/META-INF/spring/messages_pl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zadanie1/src/test/resources/appServlet-servlet-test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_0_Beta2.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/.idea/artifacts/zadanie1_war_exploded.xml" afterPath="$PROJECT_DIR$/../zadanie1/.idea/artifacts/zadanie1_war_exploded.xml" />
+    <list default="true" id="35619e53-6d15-4588-bfde-b15a237ad0c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zadanie1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/pom.xml" afterPath="$PROJECT_DIR$/../zadanie1/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml" afterPath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp" afterPath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone.jsp" afterPath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/add.jsp" afterPath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/edit.jsp" afterPath="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/test/java/PersonTest.java" afterPath="$PROJECT_DIR$/../zadanie1/src/test/java/PersonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/zadanie1.iml" afterPath="$PROJECT_DIR$/../zadanie1/zadanie1.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Beta2.xml" afterPath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/../zadanie1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java" afterPath="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../zadanie1/out/" />
     <ignored path="$PROJECT_DIR$/../zadanie1/target/" />
@@ -44,23 +37,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Phone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java">
+      <file leaf-file-name="PhoneDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -69,72 +50,18 @@
       <file leaf-file-name="PhoneController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1052">
-              <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/test/java/PersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="44" column="93" lean-forward="false" selection-start-line="44" selection-start-column="93" selection-end-line="44" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -143,8 +70,72 @@
       <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="119">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -180,14 +171,12 @@
         <option value="$PROJECT_DIR$/../zadanie1/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/appServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/person/edit.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/person/edit.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/remove.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/detials.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/add.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/edit.jsp" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person.jsp" />
@@ -198,15 +187,8 @@
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/appServlet-servlet.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/application-context-test.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/java/root-context.xml" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/test/resources/appServlet-servlet.xml" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java" />
         <option value="$PROJECT_DIR$/../zadanie1/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/test/resources/appServlet-servlet-test.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/test/java/PersonTest.java" />
@@ -214,12 +196,21 @@
         <option value="$PROJECT_DIR$/../zadanie1/pom.xml" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/add.jsp" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone/edit.jsp" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/resources/META-INF/spring/messages_pl.properties" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone.jsp" />
-        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java" />
         <option value="$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -492,48 +483,8 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zadanie1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadanie1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadanie1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadanie1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -559,7 +510,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appServlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zadanie1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,10 +663,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1375,7 +1400,7 @@
       <workItem from="1498634713131" duration="33019000" />
       <workItem from="1498670786980" duration="4785000" />
       <workItem from="1498675624674" duration="94000" />
-      <workItem from="1498675854663" duration="18530000" />
+      <workItem from="1498675854663" duration="22061000" />
     </task>
     <task id="LOCAL-00001" summary="next step">
       <created>1498478037111</created>
@@ -1454,7 +1479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498675342444</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="javadoc 1">
+      <created>1498733321908</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1498733321908</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1490,7 +1522,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134832000" />
+    <option name="totallyTimeSpent" value="138363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -1583,7 +1615,8 @@
     <MESSAGE value="interface prawie" />
     <MESSAGE value="embedded DB" />
     <MESSAGE value="next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="next step" />
+    <MESSAGE value="javadoc 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1715,98 +1748,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zadanie1/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
-            <marker date="1498733203558" expanded="true" signature="119364:119381" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119364:119399" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119364:119412" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119364:119427" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119462:122087" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119475:122072" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119529:119913" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119548:119898" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119661:119878" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119701:119844" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119722:119822" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119963:120272" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="119982:120257" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120059:120237" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120099:120203" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120120:120181" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120323:120588" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120342:120573" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120375:120553" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120415:120519" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120436:120497" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120631:120937" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120650:120922" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120724:120902" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120764:120868" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120785:120846" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="120988:121338" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121007:121323" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121086:121303" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121126:121269" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121147:121247" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121373:121679" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121392:121664" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121466:121644" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121506:121610" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121527:121588" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121731:122058" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121750:122043" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121845:122023" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121885:121989" ph="..." />
-            <marker date="1498733203558" expanded="true" signature="121906:121967" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119853:119870" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119853:119888" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119853:119901" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119853:119916" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119951:122576" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="119964:122561" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120018:120402" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120037:120387" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120150:120367" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120190:120333" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120211:120311" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120452:120761" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120471:120746" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120548:120726" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120588:120692" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120609:120670" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120812:121077" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120831:121062" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120864:121042" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120904:121008" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="120925:120986" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121120:121426" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121139:121411" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121213:121391" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121253:121357" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121274:121335" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121477:121827" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121496:121812" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121575:121792" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121615:121758" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121636:121736" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121862:122168" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121881:122153" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121955:122133" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="121995:122099" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122016:122077" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122220:122547" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122239:122532" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122334:122512" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122374:122478" ph="..." />
+            <marker date="1498736121597" expanded="true" signature="122395:122456" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1856,14 +1843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zadanie1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1876,14 +1855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1928,10 +1899,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="44" column="93" lean-forward="false" selection-start-line="44" selection-start-column="93" selection-end-line="44" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/phone.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="-70">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/spring/appServlet/appServlet-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1946,71 +1941,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/webapp/WEB-INF/views/person/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="44" column="93" lean-forward="false" selection-start-line="44" selection-start-column="93" selection-end-line="44" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/model/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/controller/PhoneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/dao/PhoneDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/controller/PersonController.java">
+    <entry file="file://$PROJECT_DIR$/../zadanie1/src/main/java/service/PhoneServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

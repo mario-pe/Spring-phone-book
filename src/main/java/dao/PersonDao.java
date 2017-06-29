@@ -8,6 +8,7 @@ import model.Phone;
 import java.util.List;
 
 /**
+ * An interface for PersonDao
  * Created by mario on 25.06.2017.
  */
 public interface PersonDao {

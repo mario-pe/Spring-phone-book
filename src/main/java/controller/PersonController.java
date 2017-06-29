@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Main Contoroller for Person
- *
+ *@Autowired with PersonService
  * Created by mario on 26.06.2017.
  */
 @Controller

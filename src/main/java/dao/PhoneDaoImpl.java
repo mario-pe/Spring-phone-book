@@ -11,7 +11,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 
-/**
+/**DAO class for Phone with all methods necessary to operate with DB
+ * use sessionFacktory hibernate 3
  * Created by mario on 25.06.2017.
  */
 @Repository
@@ -24,6 +25,10 @@ public class PhoneDaoImpl implements PhoneDao {
         this.sessionFactory = sf;
     }
 
+    /**
+     * Add new Phone to DB
+     * @param phone
+     */
     @Override
     public void addPhone(Phone phone) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -31,6 +36,10 @@ public class PhoneDaoImpl implements PhoneDao {
         logger.info("Phone saved successfully");
     }
 
+    /**
+     * update information about phone in DB
+     * @param phone
+     */
     @Override
     public void updatePhone(Phone phone) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -38,16 +47,23 @@ public class PhoneDaoImpl implements PhoneDao {
         logger.info("Phone updated successfully, Phone Details=" + phone);
     }
 
+    /**
+     * return list of all phone in DB
+     * @return list of all phone in DB
+     */
     @Override
     public List<Phone> listPhone() {
         Session session = this.sessionFactory.getCurrentSession();
         List phoneList = session.createQuery("from Phone").list();
         logger.info("PhoneList loaded successfully");
         return phoneList;
-
-
     }
 
+    /**
+     * return phone with given ID
+     * @param id
+     * @return phone with given ID
+     */
     @Override
     public Phone getPhoneById(int id) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -56,6 +72,10 @@ public class PhoneDaoImpl implements PhoneDao {
         return phone;
     }
 
+    /**
+     * remove phone from DB
+     * @param id
+     */
     @Override
     public void removePhone(int id) {
         Session session = this.sessionFactory.getCurrentSession();

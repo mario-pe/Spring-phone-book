@@ -6,6 +6,7 @@ import model.Phone;
 import java.util.List;
 
 /**
+ * An interface for PersonService
  * Created by mario on 26.06.2017.
  */
 public interface PersonService {

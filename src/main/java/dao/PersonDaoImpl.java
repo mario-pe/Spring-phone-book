@@ -11,6 +11,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
+ * DAO class for Person with all methods necessary to operate with DB
+ * use sessionFacktory hibernate 3
  * Created by mario on 25.06.2017.
  */
 @Repository
@@ -24,6 +26,10 @@ public class PersonDaoImpl implements PersonDao {
         this.sessionFactory = sf;
     }
 
+    /**
+     * add new person to DB
+     * @param p
+     */
     @Override
     public void addPerson(Person p) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -31,6 +37,10 @@ public class PersonDaoImpl implements PersonDao {
         logger.info("Person saved successfully, Person Details=" + p);
     }
 
+    /**
+     * updating information about person
+     * @param person
+     */
     @Override
     public void updatePerson(Person person) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -38,6 +48,10 @@ public class PersonDaoImpl implements PersonDao {
         logger.info("Person updated successfully, Person Details=" + person);
     }
 
+    /**
+     * returns list of all persons in DB
+     * @return list of all persons in DB
+     */
     @Override
     public List<Person> listPerson() {
         Session session = this.sessionFactory.getCurrentSession();
@@ -46,6 +60,11 @@ public class PersonDaoImpl implements PersonDao {
         return personList;
     }
 
+    /**
+     * return person with given ID
+     * @param id
+     * @return person with given ID
+     */
     @Override
     public Person getPersonById(int id) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -54,6 +73,10 @@ public class PersonDaoImpl implements PersonDao {
         return person;
     }
 
+    /**
+     * remove person from DB
+     * @param id
+     */
     @Override
     public void removePerson(int id) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -63,6 +86,11 @@ public class PersonDaoImpl implements PersonDao {
         logger.info("Person deleted successfully, person details=" + person);
     }
 
+    /**
+     * serch for phones for person with given ID
+     * @param id
+     * @return phone list of person
+     */
     @Override
     public List<Phone> getPhoneListById(int id) {
 
@@ -71,6 +99,11 @@ public class PersonDaoImpl implements PersonDao {
         return phoneList;
     }
 
+    /**
+     * search for persons with given surname
+     * @param surname
+     * @return list od person with given number
+     */
     @Override
     public List<Person> getPersonListBySurname(String surname) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -78,6 +111,12 @@ public class PersonDaoImpl implements PersonDao {
         return personList;
     }
 
+    /**
+     *
+     *  search in DB person who use given number
+     * @param number
+     * @return list person how use given number
+     */
     @Override
     public List<Person> getPersonListByNumber(String number) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -85,6 +124,12 @@ public class PersonDaoImpl implements PersonDao {
         return personList;
     }
 
+    /**
+     * search in DB for person who use @param number and have  @param surname
+     * @param number
+     * @param surname
+     * @return person who use number and surname
+     */
     @Override
     public List<Person> getPersonListByNumberSurname(String number, String surname) {
         Session session = this.sessionFactory.getCurrentSession();
@@ -95,11 +140,20 @@ public class PersonDaoImpl implements PersonDao {
         return personList;
     }
 
+    /**
+     * delete relation between phone and person
+     * @param idPhone
+     */
     @Override
     public void deleteNumberFromPerson(int idPhone) {
         Session session = this.sessionFactory.getCurrentSession();
         session.createQuery("update Phone set person_id = null where id = :idPhone").setParameter("idPhone",idPhone).executeUpdate();    }
 
+    /**
+     * connect phone and person
+     * @param idPhone
+     * @param idPerson
+     */
     @Override
     public void addPhoneToPerson(int idPhone, int idPerson) {
         Session session = this.sessionFactory.getCurrentSession();

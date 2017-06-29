@@ -7,6 +7,11 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 /**
+ * model class form phone
+ * constructors
+ * getters and setters
+ * adnnotations: Persistence and Validation
+ *
  * Created by mario on 25.06.2017.
  */
 @Entity

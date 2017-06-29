@@ -8,6 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
+ *  implemntation of functionality
+ * service use PhoneDao
  * Created by mario on 26.06.2017.
  */
 @Service
