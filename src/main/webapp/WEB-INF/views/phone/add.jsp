@@ -14,7 +14,8 @@
 <body>
 <h1>Dodaj nowy telefon</h1>
 <form:form modelAttribute="phone" action="phoneAdding" method="post">
-    <label>numer</label>
+    <label>numer musi miec format "111-111-111" lub "111 111 11"  </label>
+    <label>numer </label>
     <form:input path="number"/><form:errors path="number"/><br/>
     <label>numer wewnetrzny</label>
     <form:input path="extensionNumber"/><form:errors path="extensionNumber"/><br/>
@@ -22,6 +23,9 @@
     <form:input path="diallingCode"/><form:errors path="diallingCode"/><br/>
     <form:button>zapisz</form:button>
 </form:form>
-
+<div id="menu">
+    <a href="/phone">telefony</a>
+    <a href="/index">start</a>
+</div>
 </body>
 </html>

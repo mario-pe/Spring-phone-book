@@ -87,7 +87,7 @@ public class PhoneDaoImpl implements PhoneDao {
 
     /**
      * return Phone object by given number
-     * @param numberP
+     * @param numberP phone number to find
      * @return Phone object by given number
      */
     @Override

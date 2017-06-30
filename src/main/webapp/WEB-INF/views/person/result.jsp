@@ -44,5 +44,9 @@
 <form action="/">
     <input type="submit" value="start"/>
 </form>
+<div id="menu">
+    <a href="/person">uzytkownicy</a>
+    <a href="/index">start</a>
+</div>
 </body>
 </html>

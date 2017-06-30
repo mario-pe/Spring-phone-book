@@ -27,7 +27,7 @@ public class PhoneTest {
     @Test
     public void phone_number_should_be_equal_to_phone_number_added_to_DB() {
         Phone phone = new Phone();
-        phone.setNumber("123");
+        phone.setNumber("123-111-111");
         phone.setDiallingCode("666666");
         phone.setExtensionNumber("789789");
         phoneDao.addPhone(phone);
@@ -48,14 +48,14 @@ public class PhoneTest {
     @Test
     public void phone_number_should_be_different_after_update() {
         Phone phone = new Phone();
-        phone.setNumber("12345");
+        phone.setNumber("123-111-111");
         phone.setDiallingCode("666666");
         phone.setExtensionNumber("789789");
-        phone.setNumber("99999");
+        phone.setNumber("222-222-222");
         phone.setDiallingCode("456965");
         phone.setExtensionNumber("516846");
         phoneDao.updatePhone(phone);
-        Assert.assertNotEquals(phone.getNumber(), "12345");
+        Assert.assertNotEquals(phone.getNumber(), "123-111-111");
     }
 
 }

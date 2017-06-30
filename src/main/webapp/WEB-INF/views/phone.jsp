@@ -43,7 +43,7 @@
 <form action="/phone/add">
     <input type="submit" value="dodaj telefon"/>
 </form>
-
+<a href="/index">start</a>
 
 </body>
 </html>

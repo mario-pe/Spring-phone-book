@@ -17,15 +17,15 @@ import javax.validation.constraints.Size;
  * Created by mario on 25.06.2017.
  */
 @Entity
-//@Table(name="phone")
+
 public class Phone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-//    @NotNull(message = "{NotNull.Phone.number.validation}")
-//    @Pattern(regexp ="[0-9 -]", message = "{Pattern.Phone.number.validation}")
+
+//    @Pattern(regexp ="[0-9]{3}[- ][0-9]{3}[- ][0-9]{3}", message = "{Pattern.Phone.number.validation}")
 //    @Size(min=1,max=10,message = "{Size.Phone.extensionNumber.validation}")
     @PhoneNumber
     private String number;

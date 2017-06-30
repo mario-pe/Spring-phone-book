@@ -57,7 +57,7 @@ public class PhoneController {
     }
 
     /**
-     * use @Validation number  just numbers 0-9  '-' and space
+     * use @Validation number  format "111-111-111" or "111 111 111"
      * if form  is correctly fill add new person to DB
      * else send  back to phone/add.jsp
      * @param phone
@@ -86,7 +86,7 @@ public class PhoneController {
     }
 
     /**
-     * use @Validation number  just numbers 0-9  '-' and space
+     * use @Validation number  number  format "111-111-111" or "111 111 111"
      * if form  is correctly fill add new person to DB and redirect to phone.jsp
      * else send  back to phone/add.jsp
      * @param phone

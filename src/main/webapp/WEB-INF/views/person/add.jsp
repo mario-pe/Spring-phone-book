@@ -22,6 +22,9 @@
     <form:input path="surname"/><br/>
     <form:button>zapisz</form:button>
 </form:form>
-
+<div id="menu">
+    <a href="/person">uzytkownicy</a>
+    <a href="/index">start</a>
+</div>
 </body>
 </html>

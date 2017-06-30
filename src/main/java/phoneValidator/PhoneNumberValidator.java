@@ -20,7 +20,7 @@ public class PhoneNumberValidator implements ConstraintValidator<PhoneNumber,Str
         if(phoneNumber == null){
             return false;
         }
-        if(phoneNumber.matches("[0-9]")){
+        if(phoneNumber.matches("[0-9]{3}[- ][0-9]{3}[- ][0-9]{3}")){
             return true;
         }
         else return false;

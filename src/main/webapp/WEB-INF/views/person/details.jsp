@@ -41,10 +41,14 @@
     <form action="/addPhoneToPerson" method="post">
         <label>podaj index telefonu ktroy chcesz podlaczyc</label>
         <input type="text" name="idPhone">
-        <input type="hidden" name="idPerson" value="${person.id}">
+        <input type="hidden" name="idPerson" value="${person.id}"><br/>
         <label>jesli numer ma własciela zostanie on na stałe przypisany do nowego uzytkownika</label>
         <button type="submit">dodaj</button>
     </form>
 </table>
+<div id="menu">
+    <a href="/person">uzytkownicy</a>
+    <a href="/index">start</a>
+</div>
 </body>
 </html>

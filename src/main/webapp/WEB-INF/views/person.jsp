@@ -40,5 +40,6 @@
 <form action="/person/add">
     <input type="submit" value="dodaj uzytkownika"/>
 </form>
+<a href="/index">start</a>
 </body>
 </html>

@@ -27,7 +27,10 @@
 <div id="content">
     <h2>Wyszukaj uzytkownika</h2>
     <form action="/searchPerson" method="post">
+        <label><h2>wyszukiwanie</h2></label>
+        <labal>nazwisko</labal>
         <input type="text" name="surname">
+        <labal>numer telefonu</labal>
         <input type="text" name="number">
         <button type="submit">Wyszukaj</button>
     </form>

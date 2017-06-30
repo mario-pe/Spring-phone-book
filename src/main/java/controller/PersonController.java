@@ -174,7 +174,7 @@ public class PersonController {
      * @param model
      * @return
      */
-    @RequestMapping("/")
+    @RequestMapping(value = {"/","/index"})
     public String index(Model model) {
         return "index";
     }
