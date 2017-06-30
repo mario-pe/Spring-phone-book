@@ -1,5 +1,7 @@
 package model;
 
+import phoneValidator.PhoneNumber;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
@@ -25,6 +27,7 @@ public class Phone {
 //    @NotNull(message = "{NotNull.Phone.number.validation}")
 //    @Pattern(regexp ="[0-9 -]", message = "{Pattern.Phone.number.validation}")
 //    @Size(min=1,max=10,message = "{Size.Phone.extensionNumber.validation}")
+    @PhoneNumber
     private String number;
 
 //    @Size(min=1,max=10,message = "{Size.Phone.extensionNumber.validation}")

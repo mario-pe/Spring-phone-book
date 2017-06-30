@@ -27,7 +27,7 @@ public class PhoneTest {
     @Test
     public void phone_number_should_be_equal_to_phone_number_added_to_DB() {
         Phone phone = new Phone();
-        phone.setNumber("9632147");
+        phone.setNumber("123");
         phone.setDiallingCode("666666");
         phone.setExtensionNumber("789789");
         phoneDao.addPhone(phone);
