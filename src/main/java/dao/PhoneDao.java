@@ -13,4 +13,6 @@ public interface PhoneDao {
     public List<Phone> listPhone();
     public Phone getPhoneById(int id);
     public void removePhone(int id);
+
+    Phone getPhoneByNumber(String number);
 }

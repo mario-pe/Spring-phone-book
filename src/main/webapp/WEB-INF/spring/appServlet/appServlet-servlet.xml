@@ -63,6 +63,7 @@
 
 
     <!--phone-->
+    <!--<bean id="phone" class="model.Phone"/>-->
     <bean id="phoneDao" class="dao.PhoneDaoImpl">
         <property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory"/>
     </bean>
@@ -76,6 +77,7 @@
     <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
         <property name="sessionFactory" ref="hibernate3AnnotatedSessionFactory"/>
     </bean>
+
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
         <property name="basename" value="META-INF.spring.messages"/>
     </bean>

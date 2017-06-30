@@ -61,7 +61,6 @@ public class PersonController {
      */
     @RequestMapping(value = "/person/personAdding", method = RequestMethod.POST)
     public String addNewPerson(Person person) {
-        System.out.println(person);
 
         this.personService.addPerson(person);
         return "redirect:/person";

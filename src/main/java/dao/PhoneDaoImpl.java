@@ -84,4 +84,18 @@ public class PhoneDaoImpl implements PhoneDao {
             session.delete(phone);
         logger.info("Phone deleted successfully, Phone details=" + phone);
     }
+
+    /**
+     * return Phone object by given number
+     * @param numberP
+     * @return Phone object by given number
+     */
+    @Override
+    public Phone getPhoneByNumber(String numberP) {
+        Session session = this.sessionFactory.getCurrentSession();
+        Phone phone =(Phone)  session.createQuery("Select new model.Phone(p.id,p.number,p.extensionNumber,p.diallingCode) from Phone as p where number = :numberP").setParameter("numberP",numberP).uniqueResult();
+        logger.info("Phone delete successfully, Phone Details=" + phone);
+        return phone;
+    }
+
 }

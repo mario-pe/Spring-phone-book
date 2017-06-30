@@ -157,6 +157,6 @@ public class PersonDaoImpl implements PersonDao {
     @Override
     public void addPhoneToPerson(int idPhone, int idPerson) {
         Session session = this.sessionFactory.getCurrentSession();
-        session.createQuery("update Phone set person_id = :idPerson where id = :idPhone").setParameter("idPerson",idPerson).setParameter("idPhone",idPhone).executeUpdate();
+         session.createQuery("update Phone set person_id = :idPerson where id = :idPhone").setParameter("idPerson",idPerson).setParameter("idPhone",idPhone).executeUpdate();
     }
 }

@@ -1,20 +1,21 @@
 package controller;
 
-import dao.PhoneDao;
+
 import model.Phone;
-import model.Phone;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Required;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import service.PhoneService;
 
-import javax.naming.Binding;
+
 import javax.validation.Valid;
 import java.util.List;
 
